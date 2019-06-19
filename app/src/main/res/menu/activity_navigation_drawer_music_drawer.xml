@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Genre">
+        <menu>
+            <item
+                android:id="@+id/nav_all_music"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_all_music" />
+            <item
+                android:id="@+id/nav_hip_hop"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_hip_hop" />
+            <item
+                android:id="@+id/nav_rock"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_rock" />
+            <item
+                android:id="@+id/nav_house"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_house" />
+            <item
+                android:id="@+id/nav_trap"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_trap" />
+            <item
+                android:id="@+id/nav_heavy_metal"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_heavy_metal" />
+            <item
+                android:id="@+id/nav_pop"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_pop" />
+            <item
+                android:id="@+id/nav_jazz"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_jazz" />
+            <item
+                android:id="@+id/nav_blues"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_blues" />
+            <item
+                android:id="@+id/nav_hardcore"
+                android:icon="@drawable/ic_action_music_1"
+                android:title="@string/genre_hardcore" />
+        </menu>
+    </item>
+</menu>

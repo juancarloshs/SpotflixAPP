@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Genre">
+        <menu>
+            <item
+                android:id="@+id/nav_all_movies"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_all_movies" />
+            <item
+                android:id="@+id/nav_comedy"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_comedy" />
+            <item
+                android:id="@+id/nav_drama"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_drama" />
+            <item
+                android:id="@+id/nav_terror"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_terror" />
+            <item
+                android:id="@+id/nav_thriller"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_thriller" />
+            <item
+                android:id="@+id/nav_science_fiction"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_science_fiction" />
+            <item
+                android:id="@+id/nav_romantic"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_romantic" />
+            <item
+                android:id="@+id/nav_adventures"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_adventures" />
+            <item
+                android:id="@+id/nav_musical"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_musical" />
+            <item
+                android:id="@+id/nav_war"
+                android:icon="@drawable/ic_film"
+                android:title="@string/genre_war" />
+            <!--<item-->
+                <!--android:id="@+id/action_search"-->
+                <!--android:icon="@drawable/ic_action_action_search"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:title="@string/action_search" />-->
+        </menu>
+    </item>
+</menu>
